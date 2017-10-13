@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #242943;
+		background: #111215;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1848,11 +1848,10 @@
 			}
 
 		header.major > p {
-			font-size: 0.7em;
-			font-weight: 600;
-			letter-spacing: 0.25em;
+			font-size: 1em;
+			font-weight: 200;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			
 		}
 
 		body.is-ie header.major > :first-child:after {
@@ -1951,7 +1950,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(255, 255, 255, 0.5);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -3141,7 +3140,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #24292e;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3440,7 +3439,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #24292e;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3619,7 +3618,7 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #24292e;
 	}
 
 		#main > * {

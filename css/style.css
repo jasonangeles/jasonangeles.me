@@ -184,6 +184,10 @@ pre {
   background-size: 1px 4rem;
 }
 
+.img-responsive.mobile {
+  display: none;
+}
+
 #fh5co-header {
   margin-top: 4em;
   margin-bottom: 3em;
@@ -533,6 +537,14 @@ pre {
     display: block;
     margin-bottom: 10px;
   }
+  
+  .img-responsive {
+    display: none;
+  }
+  
+  .img-responsive.mobile {
+    display: block;
+  }
 }
 #fh5co-footer .fh5co-footer-social li a {
   color: #1d2dfd;
@@ -624,6 +636,9 @@ pre {
   .owl-carousel-posts .owl-controls .owl-nav .owl-next {
     right: 0px;
   }
+
+  
+
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev {

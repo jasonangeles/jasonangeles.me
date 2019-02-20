@@ -220,16 +220,16 @@ pre {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  text-align: center;
+  width: 100%;
+  text-align: right;
 }
 @media screen and (max-width: 992px) {
   #fh5co-main-nav ul {
-    text-align: left;
+    text-align: right;
     width: 100%;
     margin-left: inherit;
     margin-right: inherit;
-    text-align: left;
+    text-align: right;
   }
 }
 @media screen and (max-width: 768px) {

@@ -53,11 +53,11 @@
 			$(this).toggleClass('active');
 			
 			var mainNav = $('#fh5co-main-nav');
-			mainNav.slideToggle(400).toggleClass('active');
+			mainNav.slideToggle(0).toggleClass('active');
 			
 
 			if ( mainNav.hasClass('active') ) {
-				menuAnimate(1, 0, 400, 200);	
+				menuAnimate(1, 0, 200, 50);	
 			} else {
 				menuAnimate(0, -50, 1, 0);	
 			}

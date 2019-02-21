@@ -539,6 +539,7 @@ pre {
     display: block;
     margin-bottom: 10px;
   }
+
 }
 #fh5co-footer .fh5co-footer-social li a {
   color: #1d2dfd;
@@ -1306,4 +1307,21 @@ a > img.fh5co-align-center {
 
 .superscript {
   color: #1d2dfd;
+}
+
+@media (max-width: 1200px) {
+  p.caption-gray {
+    text-align: center;
+    color:#9b9b9b;
+  }
+}
+
+@media (min-width: 1201px) {
+  .container-main {
+    width: 1280px;
+  }
+  p.caption-gray {
+    text-align: center;
+    color:#9b9b9b;
+  }
 }

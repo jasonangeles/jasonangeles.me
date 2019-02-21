@@ -1318,7 +1318,7 @@ a > img.fh5co-align-center {
 
 @media (min-width: 1201px) {
   .container-main {
-    width: 1280px;
+    width: 1280px; !important;
   }
   p.caption-gray {
     text-align: center;

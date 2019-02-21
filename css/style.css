@@ -95,6 +95,7 @@ h2, .h2 {
   font-size: 50px;
   line-height: 68px;
 }
+
 @media screen and (max-width: 768px) {
   h2, .h2 {
     font-size: 40px;
@@ -184,7 +185,7 @@ pre {
   background-size: 1px 4rem;
 }
 
-.img-responsive.mobile {
+.mobile {
   display: none;
 }
 
@@ -238,6 +239,7 @@ pre {
 }
 @media screen and (max-width: 768px) {
   #fh5co-main-nav ul {
+    position: absolute;
     text-align: right;
     margin-left: inherit;
     margin-right: inherit;
@@ -537,14 +539,6 @@ pre {
     display: block;
     margin-bottom: 10px;
   }
-  
-  .img-responsive {
-    display: none;
-  }
-  
-  .img-responsive.mobile {
-    display: block;
-  }
 }
 #fh5co-footer .fh5co-footer-social li a {
   color: #1d2dfd;
@@ -636,9 +630,6 @@ pre {
   .owl-carousel-posts .owl-controls .owl-nav .owl-next {
     right: 0px;
   }
-
-  
-
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev {
@@ -1085,6 +1076,14 @@ img.fh5co-align-right {
     width: 100%;
     margin: 0 0 .5em 0;
   }
+
+  .extra-img {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+
 }
 img.fh5co-align-left {
   float: left;
